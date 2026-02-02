@@ -128,6 +128,12 @@
     "sourcePort" : "SCl03QeuduxGJ_5AuroOO$$80KjzJqVRmc8qo1k54cEz",
     "target" : "oSzmTVXynfuuH2i_Zna3n$$_jBiQeNqRnIzbP6pJLBzK",
     "targetPort" : "Kou2-GuTik4dLVN3QoYZs$$iAFd-gVciPbqtjbnUg53P"
+  }, {
+    "id" : "O-xOJh4VLpm_Hh8lkv6xV",
+    "source" : "LAVdib4K5F2PROeKxr_ah$$xO-5kg0yHBWJl8kn04KjQ",
+    "sourcePort" : "SCl03QeuduxGJ_5AuroOO$$80KjzJqVRmc8qo1k54cEz",
+    "target" : "-IjmciET_lx4i0AIqshSP$$MqFyKX_-bvGZ8O0ae4VIn",
+    "targetPort" : "y0IolgHk3sTVw0dafQ7zH$$LjQ_9ISUhWMoBmQyRYHdx"
   } ],
   "processes" : {
     "LAVdib4K5F2PROeKxr_ah$$xO-5kg0yHBWJl8kn04KjQ" : {
@@ -336,6 +342,186 @@
       "componentInfo" : {
         "gemId" : "gems/Add_Unspecified_Rows",
         "projectName" : "add_unspecified_rows_debug"
+      }
+    },
+    "-IjmciET_lx4i0AIqshSP$$MqFyKX_-bvGZ8O0ae4VIn" : {
+      "id" : "-IjmciET_lx4i0AIqshSP$$MqFyKX_-bvGZ8O0ae4VIn",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Reformat_1",
+        "slug" : "Reformat_1",
+        "x" : -1020,
+        "y" : -240,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false,
+        "dataPreview" : false,
+        "showRecordsCount" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "y0IolgHk3sTVw0dafQ7zH$$LjQ_9ISUhWMoBmQyRYHdx",
+          "slug" : "in0",
+          "schema" : {
+            "type" : "struct",
+            "fields" : [ {
+              "name" : "jobReqId",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Unique identifier for the job requisition.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "age",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Age of the candidate being considered for the job.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "appTemplateId",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Identifier for the application template used in the hiring process.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "assessRatingScaleName",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Name of the rating scale used to assess candidates.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "businessUnitCode",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Code representing the business unit responsible for the job requisition.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "candidateHired",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Indicates whether a candidate was hired for the position.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "candidateProgress",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Current stage or status of the candidate in the hiring process.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "closedDateTime",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Date and time when the job posting or hiring process was closed.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "corporatePosting",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Specifies if the job posting is for a corporate position.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "costCenterCode",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Code representing the department or unit responsible for the hiring budget.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "country",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Country where the transaction or record is associated.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "createdDateTime",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Date and time when the record was created.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "currency",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Currency used for the transaction or record.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "custEducation",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Education level of the customer.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "ins_dtm",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Timestamp when the record was inserted into the system.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            } ]
+          },
+          "isStreaming" : false
+        } ],
+        "outputs" : [ {
+          "id" : "KWXYgJrlpBLZFqs9NQQb9$$dwjiFGemzaC0aVyawnRj4",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "importLanguage" : "${$.workflow.metainfo.frontEndLanguage}",
+        "expressions" : [ ],
+        "importString" : "",
+        "activeTab" : "expressions",
+        "columnsSelector" : [ ]
+      },
+      "componentInfo" : {
+        "gemId" : "gitUri=http://gitserver:3000/DxEheDCJ_team_5751/DxEheDCJ_project_12654.git&subPath=&tag=0.2.54&projectSubscriptionProjectId=12654&path=gems/Reformat",
+        "projectName" : "ProphecySparkBasicsPython"
       }
     }
   },

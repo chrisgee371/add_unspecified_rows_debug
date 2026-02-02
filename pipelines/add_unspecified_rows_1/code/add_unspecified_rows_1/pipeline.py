@@ -9,6 +9,7 @@ from add_unspecified_rows_1.graph import *
 def pipeline(spark: SparkSession) -> None:
     df_Copper_Delta_Table = Copper_Delta_Table(spark)
     df_Add_Unspecified_Rows_1 = Add_Unspecified_Rows_1(spark, df_Copper_Delta_Table)
+    df_Reformat_1 = Reformat_1(spark, df_Copper_Delta_Table)
 
 def main():
     spark = SparkSession.builder.enableHiveSupport().appName("add_unspecified_rows_1").getOrCreate()
