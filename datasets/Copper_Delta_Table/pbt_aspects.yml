@@ -1,0 +1,110 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: jobReqId
+    type: string
+    nullable: true
+    metadata:
+      description: Unique identifier for the job requisition.
+      mappings: []
+      tags: []
+  - name: age
+    type: string
+    nullable: true
+    metadata:
+      description: Age of the candidate being considered for the job.
+      mappings: []
+      tags: []
+  - name: appTemplateId
+    type: string
+    nullable: true
+    metadata:
+      description: Identifier for the application template used in the hiring process.
+      mappings: []
+      tags: []
+  - name: assessRatingScaleName
+    type: string
+    nullable: true
+    metadata:
+      description: Name of the rating scale used to assess candidates.
+      mappings: []
+      tags: []
+  - name: businessUnitCode
+    type: string
+    nullable: true
+    metadata:
+      description: Code representing the business unit responsible for the job requisition.
+      mappings: []
+      tags: []
+  - name: candidateHired
+    type: string
+    nullable: true
+    metadata:
+      description: Indicates whether a candidate was hired for the position.
+      mappings: []
+      tags: []
+  - name: candidateProgress
+    type: string
+    nullable: true
+    metadata:
+      description: Current stage or status of the candidate in the hiring process.
+      mappings: []
+      tags: []
+  - name: closedDateTime
+    type: string
+    nullable: true
+    metadata:
+      description: Date and time when the job posting or hiring process was closed.
+      mappings: []
+      tags: []
+  - name: corporatePosting
+    type: string
+    nullable: true
+    metadata:
+      description: Specifies if the job posting is for a corporate position.
+      mappings: []
+      tags: []
+  - name: costCenterCode
+    type: string
+    nullable: true
+    metadata:
+      description: Code representing the department or unit responsible for the hiring
+        budget.
+      mappings: []
+      tags: []
+  - name: country
+    type: string
+    nullable: true
+    metadata:
+      description: Country where the transaction or record is associated.
+      mappings: []
+      tags: []
+  - name: createdDateTime
+    type: string
+    nullable: true
+    metadata:
+      description: Date and time when the record was created.
+      mappings: []
+      tags: []
+  - name: currency
+    type: string
+    nullable: true
+    metadata:
+      description: Currency used for the transaction or record.
+      mappings: []
+      tags: []
+  - name: custEducation
+    type: string
+    nullable: true
+    metadata:
+      description: Education level of the customer.
+      mappings: []
+      tags: []
+  - name: ins_dtm
+    type: string
+    nullable: true
+    metadata:
+      description: Timestamp when the record was inserted into the system.
+      mappings: []
+      tags: []
